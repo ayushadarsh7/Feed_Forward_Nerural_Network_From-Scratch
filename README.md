@@ -3,8 +3,11 @@
 ## Files in the repository
 * Following are the details of the files present in the repository.
 * **Modular_Feed_Forward_Neural_Network_From_Scratch.ipynb** is the jupyter notebook having the main code.
+  
 * **modular_feed_forward_neural_network_from_scratch.py** is the python3 file for the same code.
+  
 * **Involved_Mathematical_Calculations.pdf** is the pdf file having all the mathematical calculations involved in the Neural Network.
+  
 * **Backpropagation.pdf** is the mathematically derived **pseudocode** for backpropagation algorithm used in the Neural Network with **softmax** as the output function.
 
 ## Architecture of the Feed Forward Neural Network
@@ -26,5 +29,18 @@ softmax_probs = softmax(logits)
 print("Logits:", logits)
 print("Softmax Probabilities:", softmax_probs)
 ```
+## Modularity of code
+* The code of **Neural Network** is modular and user friendly.
+* We can specify the required **activation function**,**input nodes**, **output classes**.
+* Currently the model is ready for **classification** tasks, but just by changing the **output function**, we can change it do **regression** tasks as well.
+* For **regression tasks**, we can use a **linear output function**.
+
+## Statistically optimised weights and biases initialisation
+[![statistically-optimised-initialisation.jpg](https://i.postimg.cc/brxdfVwR/statistically-optimised-initialisation.jpg)](https://postimg.cc/5Qtfw3vH)
+```python
+W = np.random.randn(in_nodes,out_nodes)/sqrt(in_nodes)
+```
+
+* **in_nodes** is the number of input nodes connected to the neuron and **out_nodes** is the number of output nodes the neuron is connected with.
 
 
