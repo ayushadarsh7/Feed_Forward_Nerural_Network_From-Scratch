@@ -36,11 +36,10 @@ print("Softmax Probabilities:", softmax_probs)
 * For **regression tasks**, we can use a **linear output function**.
 
 ## Statistically optimised weights and biases initialisation
-[![statistically-optimised-initialisation.jpg](https://i.postimg.cc/brxdfVwR/statistically-optimised-initialisation.jpg)](https://postimg.cc/5Qtfw3vH)
+[![statistically-optimised-initialisation.jpg](https://i.postimg.cc/Pxm8d56Z/statistically-optimised-initialisation.jpg)](https://postimg.cc/LY8sT2F6)
 ```python
 W = np.random.randn(in_nodes,out_nodes)/sqrt(in_nodes)
 ```
-
 * **in_nodes** is the number of input nodes connected to the neuron and **out_nodes** is the number of output nodes the neuron is connected with.
 
 
