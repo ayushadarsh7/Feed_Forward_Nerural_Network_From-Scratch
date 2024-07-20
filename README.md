@@ -32,6 +32,7 @@ print("Softmax Probabilities:", softmax_probs)
 ## Modularity of code
 * The code of **Neural Network** is modular and user friendly.
 * We can specify the required **activation function**,**input nodes**, **output classes**.
+* We can also specify the **Number of layers** in the **neural network**.
 * Currently the model is ready for **classification** tasks, but just by changing the **output function**, we can change it do **regression** tasks as well.
 * For **regression tasks**, we can use a **linear output function**.
 
