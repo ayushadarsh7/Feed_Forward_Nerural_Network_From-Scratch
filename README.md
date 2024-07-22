@@ -2,7 +2,7 @@
 * This reposistory contains the code and mathematical calculations involved in building a neural network from scratch by me.
 ## Files in the repository
 * Following are the details of the files present in the repository.
-* **Modular_Feed_Forward_Neural_Network_From_Scratch.ipynb** is the jupyter notebook having the main code.
+* **Modular_Feed_Forward_Neural_Network_From_Scratch.ipynb** is the jupyter notebook having the main code. The code in this has been nicely commented for improving its readability by other git users.
   
 * **modular_feed_forward_neural_network_from_scratch.py** is the python3 file for the same code.
   
