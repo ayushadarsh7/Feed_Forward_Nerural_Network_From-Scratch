@@ -19,14 +19,13 @@
 import numpy as np
 
 def softmax(z):
-    exp_z = np.exp(z - np.max(z))  # Subtract max(z) for numerical stability
+    exp_z = np.exp(z - np.max(z))  
     return exp_z / exp_z.sum(axis=0)
 
-# Example usage
-logits = np.array([2.0, 1.0, 0.1])
-softmax_probs = softmax(logits)
+vector = np.array([2.0, 1.0, 0.1])
+softmax_probs = softmax(vector)
 
-print("Logits:", logits)
+print("vector:", vector)
 print("Softmax Probabilities:", softmax_probs)
 ```
 ## Modularity of code
